@@ -1,5 +1,7 @@
 package FirstPackage;
 
+//import FirstPackage.linkedLists.MyNode;
+
 public class commonMethods {
 	
 	public static String convertToUpperCase(String element) {
@@ -9,5 +11,16 @@ public class commonMethods {
 		
 		return element;
 	}
-
+}
+class MyNode{
+    String data;MyNode link;
+    public MyNode(String data){this.data = data;this.link = null;}
+}
+class BinarySearchNode{
+	int key;
+	BinarySearchNode left,right;
+	public BinarySearchNode(int key) {
+		this.key = key; 
+		left = null;right = null;
+	}
 }
