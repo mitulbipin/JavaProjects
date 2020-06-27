@@ -3,6 +3,7 @@ package FirstPackage;
 import java.util.HashMap;
 import java.util.Scanner;
 import java.lang.String;
+import FirstPackage.commonMethods;
 
 public class hashMaps {
 	static Scanner input = new Scanner(System.in);
@@ -16,9 +17,7 @@ public class hashMaps {
 		
 		System.out.print("\nEnter Name:");
 			String name = input.next();
-				char ch1 = name.charAt(0);
-			boolean isUpper = Character.isUpperCase(ch1);
-				name = isUpper? name : name.substring(0,1).toUpperCase() + name.substring(1);
+			 name = commonMethods.convertToUpperCase(name);
 				
 		System.out.print("\nEnter Age:");
 			int age = input.nextInt();
@@ -29,9 +28,13 @@ public class hashMaps {
 		System.out.print("\nName:" +i+ " Age:" +details.get(i));//get method is used to fetch the 'value'
 	
 	System.out.print("\nHash Details");
+	
 	System.out.print("\nHash size: " +details.size());
-	System.out.println("\nEnter key element to be searched: ");String keyElement = input.next();
-		boolean keyPresence = (details.containsKey(keyElement)) ? true :  false;
-			
-	}	
+	
+	System.out.println("\nEnter key element to be searched: ");
+		String keyElement = input.next();
+		keyElement = commonMethods.convertToUpperCase(keyElement);
+		String keyPresence = (details.containsKey(keyElement)) ? "Present" : "Not Present";
+			System.out.print(keyPresence);			
+	}
 }

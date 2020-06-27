@@ -9,11 +9,6 @@ public class linkedLists {
     public static MyNode head;
     public static MyNode tail;
     
-    class MyNode{
-        String data;MyNode link;
-        public MyNode(String data){this.data = data;this.link = null;}
-    }
-
 	public static void main(String args[]) {
 		
 //Linked List 1 Logic

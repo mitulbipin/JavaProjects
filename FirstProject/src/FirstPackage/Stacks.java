@@ -29,6 +29,7 @@ public class Stacks{
 			switch(option) {
 			case 1:stack_pop(stack);break;
 			case 2:stack_search(stack);break;
+			case 3:stack_details(stack);break;
 			case 4:System.out.println("Stack elements are: "+stack);
 			default: System.out.println("Stack output is: "+stack);
 			}
