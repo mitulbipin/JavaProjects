@@ -34,16 +34,18 @@ class Automobile_Inheritance {
 	public static void inputVariables(int option) {
 		if(option == 1) {
 			type = "Two Wheeler";
+			System.out.println("Input name of "+type);name = input.next();
+			System.out.println("Enter the gears in "+name);gears = input.nextInt();
 			twoWheelers obj1 = new twoWheelers(name,gears); 
 			System.out.println(obj1.toString());
 			}
 		else {
 			type = "Four Wheeler";
+			System.out.println("Input name of "+type);name = input.next();
+			System.out.println("Enter the gears in "+name);gears = input.nextInt();
 			fourWheelers obj2 = new fourWheelers(name,gears);
 			System.out.println(obj2.toString());
 		}
-		System.out.println("Input name of "+type);name = input.next();
-		System.out.println("Enter the gears in "+name);gears = input.nextInt();
 	}
 }
 class twoWheelers extends Automobile_Inheritance{
