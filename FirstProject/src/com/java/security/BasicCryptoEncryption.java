@@ -1,6 +1,6 @@
 package com.java.security;
 
-public class Crypto {
+public class BasicCryptoEncryption {
 	public static void main(String args[]) {
 		BasicCrypto crypto = new BasicCrypto();
 		String data = "Mitul Bipin";
