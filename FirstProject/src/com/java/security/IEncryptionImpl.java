@@ -1,6 +1,6 @@
 package com.java.security;
 
-public class BasicCrypto implements Encryption1 {
+public class IEncryptionImpl implements IEncryptionDeclaration {
 	@Override
 	public byte[] encrypt(byte[] data) {
 		byte[] enc = new byte[data.length];
