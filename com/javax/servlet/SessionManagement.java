@@ -1,4 +1,4 @@
-package src.com.javax.servlet;
+package com.javax.servlet;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Date;
