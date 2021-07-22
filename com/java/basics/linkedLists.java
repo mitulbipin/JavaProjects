@@ -1,4 +1,4 @@
-package FirstPackage;
+package com.java.basics;
 
 import java.util.LinkedList;
 import java.util.Scanner;

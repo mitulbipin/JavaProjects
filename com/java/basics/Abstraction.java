@@ -1,4 +1,4 @@
-package FirstPackage;
+package com.java.basics;
 
 abstract class Shape{
 	

@@ -1,9 +1,7 @@
-package FirstPackage;
+package com.java.basics;
 
 import java.util.HashMap;
 import java.util.Scanner;
-import java.lang.String;
-import FirstPackage.commonMethods;
 
 public class hashMaps {
 	static Scanner input = new Scanner(System.in);

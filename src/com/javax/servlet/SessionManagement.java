@@ -1,4 +1,4 @@
-package com.javax.servlets;
+package src.com.javax.servlet;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Date;
@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import FirstPackage.commonMethods;
+import com.java.basics.commonMethods;
 
 @SuppressWarnings("serial")
 public class SessionManagement extends HttpServlet {
