@@ -1,6 +1,5 @@
 package com.java.basics;
 
-import java.awt.List;
 import java.util.HashMap;
 import java.util.LinkedList;
 
